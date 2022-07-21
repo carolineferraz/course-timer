@@ -1,18 +1,19 @@
 import React from "react";
 import Botao from "../Botao";
+import './style.scss'
 
 class Formulario extends React.Component {
 
     render() {
         return (
-            <form>
-                <div>
+            <form className="novaTarefa">
+                <div className="inputContainer">
                     <label htmlFor="tarefa">
                         Adicione um item:
                     </label>
                     <input type="text" name="tarefa" id="tarefa" placeholder="O que você vai estudar/desenvolver?" required/>
                 </div>
-                <div>
+                <div className="inputContainer">
                     <label htmlFor="tempo">
                         Tempo de duração: 
                     </label>
