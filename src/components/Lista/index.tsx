@@ -3,7 +3,7 @@ import Item from "./Item";
 import style from './Lista.module.scss';
 
 function Lista() {
-    //
+    //na const abaixo, tarefas representa o nosso estado atual e setTarefas é função para mudar o estado
     const [tarefas, setTarefas] = useState([{
         tarefa: 'TypeScript',
         tempo: '01:30:00'
