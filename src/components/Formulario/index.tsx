@@ -28,7 +28,7 @@ class Formulario extends React.Component {
                     </label>
                     <input type="time" id="tempo" value={this.state.tempo} onChange={evento => this.setState({ ...this.state, tempo: evento.target.value})} step="1" name="tempo" min="00:00:00" max="01:30:30" required/>
                 </div>
-                <Botao>Adicionar</Botao>
+                <Botao type="submit">Adicionar</Botao>
             </form>
         )
     }
